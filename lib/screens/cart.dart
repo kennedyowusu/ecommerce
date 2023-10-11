@@ -137,22 +137,6 @@ class CartScreen extends StatelessWidget {
                                 )
                               ],
                             ),
-                            // trailing: Padding(
-                            //   padding: const EdgeInsets.only(right: 8.0),
-                            //   child: Column(
-                            //     children: [
-                            //       buildProductQuantity(Icons.add, index),
-                            //       Text(
-                            //         "${cartList[index].quantity}",
-                            //         style: const TextStyle(
-                            //           fontSize: 14,
-                            //           fontWeight: FontWeight.w400,
-                            //         ),
-                            //       ),
-                            //       buildProductQuantity(Icons.remove, index),
-                            //     ],
-                            //   ),
-                            // ),
                           ),
                         ),
                       );

@@ -40,10 +40,11 @@ class _ProjectRootState extends State<ProjectRoot> {
           IconButton(
             onPressed: () {
               Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => const CartScreen(),
-                  ));
+                context,
+                MaterialPageRoute(
+                  builder: (context) => const CartScreen(),
+                ),
+              );
             },
             icon: const Icon(
               Icons.shopping_cart,
